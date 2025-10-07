@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    
+    <link rel="stylesheet" href="css/lightTheme.css" id="theme-link"> 
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+
+    <button id="theme-toggle-btn" onclick="trocarTema()"></button>
+
+    <div class="centralizar-conteudo"> 
+        <div class="login-container">
+            <h2>Acesso à Área Exclusiva</h2>
+            <form action="#" method="POST">
+                
+                <div class="input-group">
+                    <label for="username">Usuário</label>
+                    <input type="text" id="username" name="username" required placeholder="Digite seu nome de usuário">
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required placeholder="Digite sua senha">
+                </div>
+
+                <button type="submit">ENTRAR</button>
+            </form>
+
+            <div class="links">
+                <a href="#">Esqueceu a senha?</a>
+                <span>|</span>
+                <a href="#">Cadastre-se</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,138 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F8F8F8; 
+    color: #333333; 
+}
+
+#theme-toggle-btn {
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+    padding: 10px 15px;
+    border: 1px solid #FF69B4; 
+    background-color: white;
+    color: #FF69B4;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#theme-toggle-btn:hover {
+    background-color: #FF69B4;
+    color: white;
+}
+
+.centralizar-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    width: 100%;
+}
+
+.login-container {
+    background-color: #FFFFFF; 
+    padding: 40px;
+    border-radius: 12px; 
+    box-shadow: 0 0 25px rgba(255, 105, 180, 0.4); 
+    width: 320px; 
+    text-align: center;
+    border: 1px solid #FF69B4; 
+}
+
+h2 {
+    color: #FF69B4; 
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555555; 
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box; 
+    border: 1px solid #CCCCCC; 
+    border-radius: 6px;
+    background-color: #FFFFFF; 
+    color: #333333;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #FF69B4; 
+    box-shadow: 0 0 8px rgba(255, 105, 180, 0.6);
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #FF69B4; 
+    color: white; 
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #FF1493; 
+    transform: translateY(-2px); 
+}
+
+.links {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.links a {
+    color: #FF69B4; 
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #333333; 
+    text-decoration: underline;
+}
+
+input::placeholder {
+  color: #B2B2B2;
+  opacity: 1;
+}
+
+input::-webkit-input-placeholder {
+  color: #B2B2B2;
+  opacity: 1;
+}
+
+input:-ms-input-placeholder {
+  color: #B2B2B2;
+  opacity: 1;
+}
