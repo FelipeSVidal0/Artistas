@@ -3,7 +3,7 @@ function trocarTema() {
     const button = document.getElementById('theme-toggle-btn');
     const currentTheme = themeLink.getAttribute('href');
     
-    let novoTema;
+    let novoTema; 
     let novoTextoBotao;
     
     if (currentTheme === 'css/lightTheme.css') {
