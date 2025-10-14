@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0A0A0A; 
+    color: #cfcebe;  
+}
+
+#theme-toggle-btn {
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    z-index: 1000; 
+    padding: 10px 15px;
+    border: 1px solid #A020F0;
+    background-color: #0A0A0A;
+    color: #A020F0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#theme-toggle-btn:hover {
+    background-color: #A020F0;
+    color: white;
+}
+
+.centralizar-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    width: 100%;
+}
+
+.login-container {
+    background-color: #2e1a5d; 
+    padding: 40px;
+    border-radius: 12px; 
+    box-shadow: 0 0 30px rgba(160, 32, 240, 0.6); 
+    width: 320px; 
+    text-align: center;
+    border: 1px solid #6f509d; 
+}
+
+h2 {
+    color: #cfcebe; 
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #EEEEEE; 
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box; 
+    border: 1px solid #4F2F4F; 
+    border-radius: 6px;
+    background-color: #1F002D; 
+    color: #EEEEEE;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #A020F0; 
+    box-shadow: 0 0 10px rgba(160, 32, 240, 0.8);
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #A020F0; 
+    color: white; 
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #8A2BE2; 
+    transform: translateY(-2px); 
+}
+
+.links {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.links a {
+    color: #cfcebe; 
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.links a:hover {
+    color: #EEEEEE; 
+    text-decoration: underline;
+}
+
+input::placeholder {
+  color: #D3A3FF;
+  opacity: 0.9;
+}
+
+input::-webkit-input-placeholder {
+  color: #D3A3FF;
+  opacity: 0.9;
+}
+
+input:-ms-input-placeholder {
+  color: #D3A3FF;
+  opacity: 0.9;
+}
